@@ -9,7 +9,7 @@ look at how to get to the correct password, using the reminder phrase.
 `bang` - An exclamation mark (see list of special characters with their respective names below).  
 `fite` - The first of two words with a length of 4 characters per word.  
 `gako` - The second word.  
-`sixty-five` - The last two characters of our password are again two digits: 6 and 5.
+`sixty-five` - The last two characters of our password are again two digits: 6 and 5.  
 `one` - This last number indicates that you have to capitalize the first letter of each word (`Fite` and `Gako`). 
 Remember, this number is not part of the password.
 
