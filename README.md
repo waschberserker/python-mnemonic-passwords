@@ -2,18 +2,18 @@
 
 Simple little Python module that creates strong, mnemonic passwords. Along with the password, you're provided with a
 reminder phrase. For example, if your generated password is `82!FiteGako65`, then your reminder phrase would be 
-`eighty-two bang fite gako sixty-five one`. As you can see, the reminder is pronounceable (well, kind of). Now let's
-look at how to decipher the reminder.
+`eighty-two bang fite gako sixty-five one`. As you can see, the reminder is pronounceable (well, sort of). Now let's
+look at how to get to the correct password, using the reminder phrase.
 
-Our newly generated password starts with two digits: `8` and `2` (or `82`). They are followed by an exclamation mark (see the list of 
-used special characters and their respective names below). After that come two words (you can have as many words as you 
-like). In our case, these words are `fite` and `gako`. After the words comes either another special character followed 
-by one more number, or just another number. Finally, if you've chosen to capitalize some of the letters in the words, 
-the very last number (in our case, that's the `one`) tells you, which letter of each word you have to capitalize. In 
-our example, that would be the first letter in every word. Sometimes, the last number is greater than the word length. 
-In this case, simply go back to the beginning of the word and resume counting until you've reached the last number. If, 
-for example, the word length would be 4 and your last number would be 13, you would also capitalize the first letter of 
-each word.
+`eighty-two` - Our password starts with two digits: 8 and 2.  
+`bang` - An exclamation mark (see list of special characters with their respective names below).  
+`fite` - The first of two words with a length of 4 characters per word.  
+`gako` - The second word.  
+`sixty-five` - The last two characters of our password are again two digits: 6 and 5.
+`one` - This last number indicates that you have to capitalize the first letter of each word (`Fite` and `Gako`). 
+Remember, this number is not part of the password.
+
+If you've done everything correctly, the resulting password shoulde be `82!FiteGako65`.
 
 **Names of the Special Characters**
 
