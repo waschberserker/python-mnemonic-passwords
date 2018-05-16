@@ -5,7 +5,7 @@ reminder phrase. For example, if your generated password is `82!FiteGako65`, the
 `eighty-two bang fite gako sixty-five one`. As you can see, the reminder is pronounceable (well, kind of). Now let's
 look at how to decipher the reminder.
 
-Our passwords starts with two digits: `8` and `2` (or `82`). They are followed by an exclamation mark (see the list of 
+Our newly generated password starts with two digits: `8` and `2` (or `82`). They are followed by an exclamation mark (see the list of 
 used special characters and their respective names below). After that come two words (you can have as many words as you 
 like). In our case, these words are `fite` and `gako`. After the words comes either another special character followed 
 by one more number, or just another number. Finally, if you've chosen to capitalize some of the letters in the words, 
