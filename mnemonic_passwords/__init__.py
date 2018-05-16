@@ -47,7 +47,7 @@ def generate_password(words=2, word_len=4, capitalize=True):
     password += special_char
     pronounceable += special_chars_mapping[special_char] + ' '
     # determine which letter of every word should be capitalized (if any)
-    capitalize_num = randint(0, 4) if capitalize else 0
+    capitalize_num = randint(1, 4) if capitalize else 0
     # now we create our 'pronounceable' words for the password
     for i in range(words):
         w = pronounceable_string(word_len)
