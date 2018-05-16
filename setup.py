@@ -12,7 +12,7 @@ setup(name='new-password',
           'Topic :: Office/Business :: Security'
       ],
       keywords='password mnemonic security',
-      url='http://github.com/codiersklave/mnemonic-password',
+      url='https://github.com/codiersklave/python-mnemonic-passwords',
       author='codiersklave',
       author_email='codiersklave@yahoo.de',
       license='MIT',
