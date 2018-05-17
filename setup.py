@@ -1,7 +1,7 @@
 from setuptools import setup
 
 
-setup(name='new-password',
+setup(name='strong-mnemonic-passwords',
       version='0.1',
       description='Mnemonic (pronounceable) password generator',
       long_description='Generator for pronounceable passwords with reminder phrases that are fairly simple to memorize.',
@@ -19,4 +19,7 @@ setup(name='new-password',
       packages=['mnemonic_passwords'],
       install_requires=['num2words', 'pyperclip'],
       zip_safe=False,
-      entry_points={'console_scripts': ['new-password=mnemonic_passwords.cli:main']})
+      entry_points={'console_scripts': [
+          'new-password=mnemonic_passwords.cli:one_password',
+          'new-passwords=mnemonic_passwords.cli:many_passwords'
+      ]})
